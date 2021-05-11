@@ -9,7 +9,9 @@ updates:
     directory: "/" 
     schedule:
       interval: "daily"
-   - package-ecosystem: "npm"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+      time: "14:30"
+      timezone: "Asia/Tokyo"
