@@ -12,9 +12,11 @@ updates:
     commit-message:
       prefix: "bundler"
       include: "scope"
+    open-pull-requests-limit: 3
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
       time: "14:30"
       timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 3
